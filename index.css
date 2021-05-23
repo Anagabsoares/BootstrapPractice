@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.first-page{
+    background: url(/Users/gabi/Desktop/BootstrapPractice/first_page.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    left: 0;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+}
+h2{
+    position: relative;
+    text-align: center;
+
+}
+.bottom-container{
+    position: fixed;
+    background-color: cadetblue;
+    height: ;
+    width: 100%;
+    bottom: 0px;
+
+}
