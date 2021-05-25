@@ -22,8 +22,12 @@ h2{
 .bottom-container{
     position: fixed;
     background-color: cadetblue;
-    height: ;
+    height: 2;
     width: 100%;
     bottom: 0px;
 
 }
+/* .col{
+
+    
+} */
