@@ -1,22 +1,32 @@
 body{
     margin: 0;
 }
-.first-page{
+html {
+    scroll-behavior: smooth;
+  }
+#title{
     background: url(/Users/gabi/Desktop/BootstrapPractice/first_page.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
     min-width: 100%;
     min-height: 100%;
-    position: fixed;
+    position: static;
+    left: 0;
+}
+#secondPage{
+    background: url(/Users/gabi/Desktop/BootstrapPractice/first_page.jpg) no-repeat center center fixed;
+    background-size: 10%;
+    min-width: 100%;
+    min-height: 100%;
+    position: static;
     left: 0;
 }
 h1{
     position: relative;
     text-align: center;
-    margin-top: 20%;
-}
-h2{
-    position: relative;
-    text-align: center;
+    line-height: 1.4;
+    font-size: 5rem;
+    font-family: 'Allura', cursive;
+    margin: 15%;
 
 }
 .bottom-container{
@@ -27,7 +37,6 @@ h2{
     bottom: 0px;
 
 }
-/* .col{
-
-    
-} */
+.container-fluid{
+    padding: 3% 15%;
+}
