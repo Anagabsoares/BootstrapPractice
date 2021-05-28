@@ -1,33 +1,31 @@
 body{
     margin: 0;
+    font-family: 'Chivo', sans-serif;
 }
 html {
     scroll-behavior: smooth;
-  }
-#title{
-    background: url(/Users/gabi/Desktop/BootstrapPractice/first_page.jpg) no-repeat center center fixed;
-    background-size: 100% 100%;
-    min-width: 100%;
-    min-height: 100%;
-    position: static;
-    left: 0;
-}
-#secondPage{
-    background: url(/Users/gabi/Desktop/BootstrapPractice/first_page.jpg) no-repeat center center fixed;
-    background-size: 10%;
-    min-width: 100%;
-    min-height: 100%;
-    position: static;
-    left: 0;
 }
 h1{
     position: relative;
     text-align: center;
-    line-height: 1.4;
-    font-size: 5rem;
-    font-family: 'Allura', cursive;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    /* font-style: italic; */
+    line-height: 0.8;
+    font-size: 4.8rem;
     margin: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
 
+}
+h2{
+    position: relative;
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Chivo', sans-serif;
+    font-size: 120%;
+    margin-left: 18%;
+    margin-top:1em;
 }
 .bottom-container{
     position: fixed;
@@ -39,4 +37,68 @@ h1{
 }
 .container-fluid{
     padding: 3% 15%;
+}
+.nav-item{
+    padding:0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    padding: 0 1.2rem;
+}
+.block-profile{
+    padding-top: 10%;
+}
+.image-profile{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 55%;
+
+}
+.profile-description{
+    font-size: 120%;
+    margin-top: 25%;
+}
+.image-sec img{
+    width: 80%;
+    height: 80%;
+    margin: 7% auto;    
+    display: block;
+}
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+.education-title{
+    padding-bottom: 10%;
+}
+    
+#title{
+    background-color: #34626c;
+    color: #fff;
+    font-family: 'Chivo', sans-serif;
+    
+}
+#education{
+    position: relative;
+    background-color:#d3e0ea;
+
+}
+#experience{
+    position: relative;
+    background-color:#d3e0ea;
+    z-index: 1; 
+}
+#experience-p{
+    position: relative;
+    padding-left:3em ;
+
+}
+.feature-title-1{
+    margin-bottom: 40px;
+    font-family: 'Chivo', sans-serif;
+    
 }
